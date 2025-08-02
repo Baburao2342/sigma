@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SIGMA - The Six Legends</title>
+  <link rel="icon" type="image/png" href="~/Documents/Website/logo.jpeg">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000000;
+      color: #f0f0f0;
+      background-image: url('601bec41-b7b7-4377-942a-640fb5ce67ee.png'); /* Background image matching logo */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .container {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: rgba(0, 0, 0, 0.85);
+      min-height: 100vh;
+    }
+
+    .logo {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 10px 0 40px;
+      color: #FFA500;
+    }
+
+    .member-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Force 2 columns */
+      gap: 25px;
+      padding: 20px;
+      justify-content: center;
+    }
+
+    .member {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #333;
+      border-radius: 15px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .member:hover {
+      transform: translateY(-5px);
+      background-color: rgba(255, 165, 0, 0.1);
+    }
+
+    .member h2 {
+      color: #FFA500;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    @media (max-width: 768px) {
+      .member-grid {
+        grid-template-columns: 1fr; /* On small screens, 1 column */
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .logo {
+        width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.jpeg" class="logo">
+        
+    <div class="member-grid">
+      <div class="member">
+        <h2>Parijat</h2>
+        <p>The smartest computer geek aiming for IIT. Driven and unstoppable.</p>
+      </div>
+      <div class="member">
+        <h2>Riyon</h2>
+        <p>The creative brain and designer of the group. A wizard with visuals.</p>
+      </div>
+      <div class="member">
+        <h2>Ashish</h2>
+        <p>Future doctor with a heart of gold. Compassion meets ambition.</p>
+      </div>
+      <div class="member">
+        <h2>Rishav</h2>
+        <p>The group's go-to doctor. Calm, wise, and always reliable.</p>
+      </div>
+      <div class="member">
+        <h2>Shaayeq</h2>
+        <p>Future cybersecurity expert. Silent but lethal in code.</p>
+      </div>
+      <div class="member">
+        <h2>Niladri</h2>
+        <p>Cybersecurity developer in the making. Loyal and sharp-minded.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 SIGMA. Brotherhood beyond time.
+    </div>
+  </div>
+</body>
+</html>
