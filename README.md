@@ -1,6 +1,6 @@
 # SIGMA - Brotherhood Beyond Time 🌌
 
-Welcome to **SIGMA**, a heartfelt website created to celebrate the unbreakable bond of friendship between a group of legends.
+Welcome to **SIGMA**, a heartfelt website I created to celebrate the unbreakable bond of friendship between a group of legends.
 
 This isn't just a page — it's a tribute. A digital monument to the memories, chaos, late-night calls, inside jokes, and brotherhood that goes *beyond time*.
 
