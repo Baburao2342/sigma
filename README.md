@@ -21,5 +21,3 @@ This site was built as a token of appreciation for the amazing friendships that 
 You can visit the live version here:  
 **[https://baburao2342.github.io/sigma](https://baburao2342.github.io/sigma)**
 
-> Replace this link with your actual GitHub Pages link when it's live.
-
